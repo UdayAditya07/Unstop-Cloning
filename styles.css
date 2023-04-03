@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    cursor: pointer;
+    margin-right: 300px;
+}
+
+button{
+    font-family:"Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+li,a{
+    font-family:"Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1c4980;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    border-bottom: 1px solid rgba(221,229,234,.5);
+    box-shadow: 0 -1px 4px #00000040
+}
+.nav_links{
+     list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: rgb(13, 135, 228);
+}
+button{
+    padding: 9px 25px;
+    background-color:#0073e6 ;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:#579BB1;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+}
+.caption {
+    display: block;
+}
+.intro h3{
+    font-size: 40px;
+    font-family:"Roboto",sans-serif;
+    font-weight: 500;
+    color: #1c4980;
+}
+.intro h1{
+    font-size: 70px;
+  color: #1c4980;
+  font-family: "Inter",sans-serif!important;
+}
+.pics{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    float: right;
+}
+.pics a{
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+p{
+    font-size: larger;
+    color: #1c4980;
+}
+.pics a span{
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    z-index: 1;
+    color: #1c4980;
+    display: inline-block;
+}
+.intro{
+    padding-left: 100px;
+}
+.companies{
+    float: right;
+}
+.com{
+    padding: 40px;
+    padding-top: none;
+}
+.side{
+    padding-top: 90px;
+}
+.img{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+}
+.img a{
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+h2{
+    color: #1c4980;
+  font-family: "Inter",sans-serif!important;
+}
+.con{
+    padding-left: 100px;
+}
+.pics a span h3{
+    font-family:"Lato",sans-serif;
+}
+.pics a span p{
+    font-size:smaller ;
+}
+footer a img{
+    padding-left: 300px;
+}
